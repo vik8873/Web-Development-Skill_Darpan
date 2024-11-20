@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Learn CSS Selectors</h1>
+        <p>Understand the different types of CSS selectors and how to use them!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#universal">Universal Selector</a></li>
+            <li><a href="#type">Type Selector</a></li>
+            <li><a href="#class">Class Selector</a></li>
+            <li><a href="#id">ID Selector</a></li>
+            <li><a href="#attribute">Attribute Selector</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="universal">
+            <h2>Universal Selector (*)</h2>
+            <p>The universal selector applies styles to all elements on the page.</p>
+            <pre><code>* { margin: 0; padding: 0; }</code></pre>
+        </section>
+        <section id="type">
+            <h2>Type Selector</h2>
+            <p>The type selector targets elements by their HTML tag name.</p>
+            <pre><code>p { color: blue; }</code></pre>
+        </section>
+        <section id="class">
+            <h2>Class Selector</h2>
+            <p>The class selector targets elements with a specific class attribute.</p>
+            <pre><code>.example { font-size: 18px; }</code></pre>
+        </section>
+        <section id="id">
+            <h2>ID Selector</h2>
+            <p>The ID selector applies styles to a single, unique element with a specific ID.</p>
+            <pre><code>#unique { background-color: yellow; }</code></pre>
+        </section>
+        <section id="attribute">
+            <h2>Attribute Selector</h2>
+            <p>The attribute selector applies styles to elements with specific attributes.</p>
+            <pre><code>[type="text"] { border: 1px solid gray; }</code></pre>
+        </section>
+        <section id="descendant">
+            <h2>Descendant Selector</h2>
+            <p>The selector .container span applies to any <span> inside an element with the class container, no matter how deeply nested it is.</p>
+            <pre><code>.container span {color: blue; }</code></pre>              
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CSS Selectors Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+     
+       

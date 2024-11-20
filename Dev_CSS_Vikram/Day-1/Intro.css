@@ -1,0 +1,13 @@
+#p2{
+    font-size: 2rem; color: rgb(64, 4, 143); 
+    background-color: bisque; 
+    display: inline;
+}
+
+.div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black; 
+    border-radius: 5px; 
+    border-style: dotted;
+    text-align: center;
+}
