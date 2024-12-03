@@ -1,0 +1,54 @@
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+
+}
+.head{
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+img{
+    height: 150px;
+}
+a{
+    color: #fff;
+}
+#vik{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#vik h1{
+    font-size: 2.5rem;
+}
+
+#vik p{
+    font-size: 1.2rem;
+}
+
+#projects .projects-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+#projects .projects{
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+summary{
+    
+}
