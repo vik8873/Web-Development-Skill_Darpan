@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box-Sizing Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Understanding the CSS Box-Sizing Property</h1>
+            <p>A comprehensive guide to mastering box-sizing in CSS with examples and explanations.</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Introduction Section -->
+            <section class="intro">
+                <h2>Introduction</h2>
+                <p>The <code>box-sizing</code> property in CSS determines how the width and height of an element are calculated, including or excluding padding and borders. Understanding this property is essential for creating consistent layouts in web design.</p>
+            </section>
+
+            <!-- Content-Box Section -->
+            <section class="box-section">
+                <h2>1. Content-Box (Default)</h2>
+                <p>In the <strong>content-box</strong> model, the width and height apply only to the content. Padding and borders are added outside the defined dimensions, potentially increasing the total size of the element. This is the default box-sizing value in CSS.</p>
+                <div class="box content-box">Content-Box Example</div>
+                <pre>
+.box {
+    box-sizing: content-box;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid #6200ea;
+}</pre>
+            </section>
+
+            <!-- Border-Box Section -->
+            <section class="box-section">
+                <h2>2. Border-Box</h2>
+                <p>With <strong>border-box</strong>, the padding and border are included within the specified width and height. This makes it easier to create consistent layouts without worrying about extra padding or borders affecting dimensions.</p>
+                <div class="box border-box">Border-Box Example</div>
+                <pre>
+.box {
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid #6200ea;
+}</pre>
+            </section>
+
+            <!-- Initial Section -->
+            <section class="box-section">
+                <h2>3. Initial</h2>
+                <p>The <strong>initial</strong> value resets the box-sizing property to its default value, which is <code>content-box</code>. It ensures the element behaves as if no box-sizing property has been applied.</p>
+                <div class="box initial-box">Initial Example</div>
+                <pre>
+.box {
+    box-sizing: initial;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid #6200ea;
+}</pre>
+            </section>
+
+            <!-- Inherit Section -->
+            <section class="box-section">
+                <h2>4. Inherit</h2>
+                <p>The <strong>inherit</strong> value makes the box-sizing property inherit its value from the parent element. This is useful for maintaining consistent box-sizing behavior across nested elements.</p>
+                <div class="parent-box">
+                    Parent (Border-Box)
+                    <div class="child-box">Child (Inherited)</div>
+                </div>
+                <pre>
+.parent-box {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+}
+
+.child-box {
+    box-sizing: inherit;
+    width: 150px;
+    padding: 10px;
+}</pre>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CSS Box-Sizing Blog | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
