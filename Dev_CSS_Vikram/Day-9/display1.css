@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    background: #444;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0.5em 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+h2 {
+    color: #444;
+}
+
+.example {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+pre {
+    background: #efefef;
+    padding: 1em;
+    overflow-x: auto;
+}
+
+/* Block Example */
+.block-example {
+    display: block;
+    background: #4caf50;
+    color: white;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+/* Inline Example */
+.inline-example {
+    display: inline;
+    background: #2196f3;
+    color: white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+/* Inline-Block Example */
+.inline-block-example {
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    margin-top: 2em;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property - Blog</title>
+    <link rel="stylesheet" href="display1.css">
+</head>
+<body>
+    <header>
+        <h1>Understanding CSS Display Property</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#block">Block</a></li>
+            <li><a href="#inline">Inline</a></li>
+            <li><a href="#inline-block">Inline-Block</a></li>
+            <li><a href="#none">None</a></li>
+           
+        </ul>
+    </nav>
+    <main>
+        <section id="block">
+            <h2>Display: Block</h2>
+            <ul>
+                <li>The `block` display makes an element take up the full width of its container.</li>
+                <li>It starts on a new line and takes up as much horizontal space as possible.</li>
+                <li>Common block-level elements: div, p, h1 to h6, section, etc.</li>
+            </ul>
+            
+            <div class="example">
+                <div class="block-example">Block Element 1</div>
+                <div class="block-example">Block Element 2</div>
+            </div>
+            <pre>
+&lt;div class="block-example"&gt;Block Element 1&lt;/div&gt;
+&lt;div class="block-example"&gt;Block Element 2&lt;/div&gt;
+            </pre>
+        </section>
+
+        <section id="inline">
+            <h2>Display: Inline</h2>
+            <ul>
+                <li>The `inline` display makes an element take up only as much width as it needs.</li>
+                <li>They only take up as much width as their content requires.</li>
+                <li>Common inline elements: &lt;span&gt;,&lt;a&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;img&gt;, etc.</li>
+                
+            </ul>
+            
+            <div class="example">
+                <span class="inline-example">Inline Element 1</span>
+                <span class="inline-example">Inline Element 2</span>
+            </div>
+            <pre>
+&lt;span class="inline-example"&gt;Inline Element 1&lt;/span&gt;
+&lt;span class="inline-example"&gt;Inline Element 2&lt;/span&gt;
+            </pre>
+        </section>
+
+        <section id="inline-block">
+            <h2>Display: Inline-Block</h2>
+            <ul>
+                <li>Combines features of both block and inline.</li>
+                <li>Elements are laid out side by side (like inline), but you can apply block-specific properties (e.g., width, height, margins).</li>
+                <li>It is especially useful for creating layouts where block and inline behaviors are needed together.</li>
+            </ul>
+            <div class="example">
+                <div class="inline-block-example">Inline-Block 1</div>
+                <div class="inline-block-example">Inline-Block 2</div>
+            </div>
+            <pre>
+&lt;div class="inline-block-example"&gt;Inline-Block 1&lt;/div&gt;
+&lt;div class="inline-block-example"&gt;Inline-Block 2&lt;/div&gt;
+            </pre>
+        </section>
+
+        <section id="none">
+            <h2>Display: None</h2>
+            <ul>
+                <li>The element is completely removed from the document flow.</li>
+                <li>It does not occupy any space and is not rendered on the screen.</li>
+                <li><b>visibility: hidden:</b>The element is not visible on the page but still takes up space in the layout.</li>
+                
+            </ul>
+            <div class="example">
+                
+            </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 CSS Display Property Blog By Vikram</p>
+    </footer>
+</body>
+</html>
