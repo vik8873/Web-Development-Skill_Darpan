@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.p-header a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.p-header{
+    display: flex;
+}
+
+.p-header .content:hover{
+    text-decoration: underline;
+}
+
+#profile{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(56, 56, 141);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hover:hover{
+    background-color: rgba(128, 128, 128, 0.417);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+/* Google Logo Styling */
+.google-logo {
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    /* padding: 30px; */
+    margin-top: 5vw;
+    justify-content: center;
+    
+    
+}
+
+.google-logo .g {
+    color: #4285F4; /* Blue */
+}
+
+.google-logo .o1 {
+    color: #EA4335; /* Red */
+}
+
+.google-logo .o2 {
+    color: #FBBC05; /* Yellow */
+}
+
+.google-logo .g-l {
+    color: #4285F4; /* Blue */
+}
+
+.google-logo .l {
+    color: #34A853; /* Green */
+}
+
+.google-logo .e {
+    color: #EA4335; /* Red */
+}
+
+.search-bar{
+    
+    display: flex;
+    justify-content: center;   
+
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    border: 1px solid rgba(0, 0, 0, 0.284);
+    padding: 1vw;
+    margin: 40px;
+    border-radius: 25px;
+}
+
+.div1:hover{
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.212);
+    
+}
+img{
+    height: 25px;
+}
+
+input{
+    width: 450px;
+    border: none;
+    outline: none;
+    
+}
+
+/* buttons */
+.buttons button {
+
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    color: #202124;
+    background-color: #c9cacb31;
+    cursor: pointer;
+    
+    
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons button:hover {
+    
+    border: 1px solid #ced2da;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+.lang a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* footer */
+.foot1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.214);
+    padding: 20px;
+    margin-top: 3.5cm;
+    background-color: rgba(128, 128, 128, 0.109);
+}
+
+
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.109);
+    padding: 14px;
+}
+
+.foot2 a{
+    text-decoration: none;
+    color: #202124;
+    padding: 5px;
+    
+    
+}
+
+.footdiv1{
+    display: flex;
+    align-items: center;
+}
+  .ser{
+    display: flex;
+  }
+
+  @media (max-width: 525px) {
+
+  .div1{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    border: 1px solid rgba(0, 0, 0, 0.284);
+    padding: 1vw;
+    margin: 40px;
+    border-radius: 25px;
+}
+
+}
+
+

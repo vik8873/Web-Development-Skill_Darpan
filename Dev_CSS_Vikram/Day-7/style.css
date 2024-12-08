@@ -15,6 +15,19 @@ header{
     gap: 20px;
     
 }
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}
+
+summary{
+    
+}
 img{
     height: 150px;
 }
@@ -24,15 +37,17 @@ a{
 #vik{
     background: #f4f4f4;
     text-align: center;
-    padding: 50px 20px;
+    padding: 10px;
+    
 }
 
 #vik h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 #vik p{
     font-size: 1.2rem;
+    text-align: left;
 }
 
 #projects .projects-container{
