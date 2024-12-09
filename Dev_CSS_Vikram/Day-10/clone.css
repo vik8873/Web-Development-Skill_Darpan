@@ -1,7 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    
 }
 
 .main{
@@ -47,8 +49,9 @@
 
 /* Google Logo Styling */
 .google-logo {
-    font-size: 100px;
-    font-weight: bold;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 90px;
+    /* font-weight: bold; */
     display: flex;
     /* padding: 30px; */
     margin-top: 5vw;
@@ -91,9 +94,9 @@
 .div1{
     display: flex;
     justify-content: space-between;
-    width: 45vw;
+    width: 42vw;
     border: 1px solid rgba(0, 0, 0, 0.284);
-    padding: 1vw;
+    padding: 0.8vw;
     margin: 40px;
     border-radius: 25px;
 }
@@ -152,7 +155,7 @@ input{
 .foot1{
     border-bottom: 1px solid rgba(0, 0, 0, 0.214);
     padding: 20px;
-    margin-top: 3.5cm;
+    margin-top: 3.9cm;
     background-color: rgba(128, 128, 128, 0.109);
 }
 
