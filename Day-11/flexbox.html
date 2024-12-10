@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box Property</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <header>
+        <h1>Understanding Concept of Flex-Box Property</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#display">Display</a></li>
+            <li><a href="#direction">Flex-direction</a></li>
+            <li><a href="#justify">Justify-content</a></li>
+            <li><a href="#align-item">Align-items</a></li>
+            <li><a href="#align-content">Align-content</a></li>
+            <li><a href="#wrap">Flex-wrap</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Main Concepts of Flexbox</h2>
+        <ol>
+            <li><b>Flex Container:</b> The parent element that holds flex items. Apply display: flex; or display: inline-flex; to the container.</li>
+            <li><b>Flex Items:</b> The child elements inside the flex container.</li>
+        </ol>
+        <div class="main-div">
+            <h2>Flex Container Properties</h2>
+            <span>These properties are applied to the flex container and influence its behavior and the layout of its child items.</span>
+            <h3 id="#display">1. Display</h3>
+            <p>Defines the container as a flex container.</p>
+            <ul>
+                <li>Values:</li>
+                <ul>
+                    <li><b>flex:</b> Creates a block-level flex container.</li>
+                    <li><b>inline-flex:</b> Creates an inline-level flex container.</li>
+                </ul>
+            </ul>
+            <div class="example-1">
+                <div class="int-div1">1</div>
+                <div class="int-div1">2</div>
+                <div class="int-div1">3</div>
+                </div>
+        </div>
+        <div class="main-div">
+            <h3 id="direction">2. Flex-direction</h3>
+            <p>Specifies the direction of the main axis and determines how items are placed in the container.</p>
+            <ul>
+                <li>Values:</li>
+                <ul>
+                    <li><b>row (default):</b> Items are placed left to right.</li>
+                    <li><b>row-reverse:</b>Items are placed right to left.</li>
+                    <li><b>column:</b>Items are placed top to bottom.</li>
+                    <li><b>column-reverse:</b>Items are placed bottom to top.</li>
+                </ul>
+            </ul>
+            <div class="example-2">
+                <p>flex-direction: column is applied</p>
+                <div class="int-div1">1</div>
+                <div class="int-div1">2</div>
+                <div class="int-div1">3</div>
+                </div>
+        </div>
+        <div class="main-div">
+            <h3 id="justify"><b>3. Justify-content</b></h3>
+            <p>Aligns items along the main axis (horizontal by default).</p>
+            <ul>
+                <li>Values:</li>
+                <ul>
+                <li><b>flex-start (default):</b>Items align to the start.</li>
+                <li><b>FLex-end:</b>Items align to the end.</li>
+                <li><b>Centre:</b>Items align to the center to main axis.</li>
+                <li><b>space-between: </b>Equal space between items.</li>
+                <li><b>space-around:</b>Equal space around items.</li>
+                <li><b>space-evenly:</b>Equal space distributed between and around items.</li>
+                </ul>
+            </ul>
+            <div class="example-3">
+                
+                <div class="int-div1">1</div>
+                <div class="int-div1">2</div>
+                <div class="int-div1">3</div>
+                </div>
+        </div>
+
+        <div class="main-div">
+            <h3 id="align-item"><b>4. Align-items</b></h3>
+            <p>Aligns items along the cross axis (vertical by default).</p>
+            <ul><li>Values:</li></ul>
+            <ul>
+                <ul>
+                <li><b>stretch (default):</b>Items stretch to fill the container.</li>                   
+                <li><b>flex-start:</b>Align items at the start.</li>                   
+                <li><b>flex-end:</b>Align items at the end.</li>                   
+                <li><b>center:</b>Align items at the center.</li>                   
+                <li><b>baseline:</b>Align items along their baseline.</li> 
+                </ul>
+                                  
+             
+            </ul>
+            <div class="example-4">
+                
+                <div class="int-div1">1</div>
+                <div class="int-div1">2</div>
+                <div class="int-div1">3</div>
+                </div>
+        </div>
+
+        <div class="main-div">
+            <h3 id="align-content"><b>5. Align-content</b></h3>
+            <p>Aligns multiple lines of items (if wrapping is enabled) along the cross axis.</p>
+            <ul><li>Values:</li></ul>
+            <ul>
+                <ul>
+                <li><b>stretch (default):</b>Lines stretch to fill space.</li>
+                <li><b>flex-start:</b>Lines align at the start.</li>
+                <li><b>flex-end:</b>Lines align at the end.</li>
+                <li><b>center:</b>Lines align at the center.</li>
+                <li><b>space-between:</b>Equal space between lines.</li>
+                <li><b>space-around:</b>Equal space around lines.</li>
+                </ul>
+                
+            </ul>
+            <div class="example-5">
+                
+                <div class="int-div1">1</div>
+                <div class="int-div1">2</div>
+                <div class="int-div1">3</div>
+                <div class="int-div1">3</div>
+                </div>
+        </div>
+
+        <div class="main-div">
+            <h3 id="wrap"><b>6. Flex Wrap</b></h3>
+            <p>Controls whether items wrap to the next line.</p>
+            <ul><li>Values:</li>
+            <ul>
+                <li><b>nowrap (default):</b>All items stay on a single line.</li>
+                <li><b>wrap:</b>Items wrap to the next line.</li>
+                <li><b>wrap-reverse:</b>Items wrap to the next line in reverse order.</li>
+            </ul>
+        </ul>   
+            <div class="example-6">
+                
+                <div class="int-div1">1</div>
+                <div class="int-div1">2</div>
+                <div class="int-div1">3</div>
+                <div class="int-div1">3</div>
+                <div class="int-div1">3</div>
+                <div class="int-div1">3</div>
+                </div>
+                
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CSS Flex-Box Property Blog By Vikram</p>
+    </footer>
+</body>
+</html>     
+         
+           
+         

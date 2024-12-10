@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    background: #444;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0.5em 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+main{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-div{
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 15px;
+    margin-bottom: 1.5cm;
+    background-color: rgba(123, 232, 170, 0.336);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px rgba(255, 0, 0, 0.164);
+}
+
+.example-1{
+    border: 1px solid black;
+    display: flex;
+    margin: 20px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(98, 195, 230, 0.998);
+}
+
+.int-div1{
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.example-2{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: column;
+    margin: 20px;
+    
+    padding: 10px;
+    background-color: rgb(70, 187, 226);
+
+  }
+
+.example-3{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(70, 187, 226);
+
+}
+
+
+
+.example-4{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 6cm;
+    
+    padding: 10px;
+    background-color: rgb(70, 187, 226);
+}
+
+.example-5{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    margin: 20px;
+    height: 7cm;
+    padding: 10px;
+    background-color: rgb(70, 187, 226);
+}
+
+.example-6{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    height: 10cm;
+    width: 8cm;
+    padding: 10px;
+    background-color: rgb(70, 187, 226);
+}
+
+nav ul li a:hover{
+    background-color: rgb(22, 42, 214);
+    border-radius: 8px;
+    
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+
+
+
