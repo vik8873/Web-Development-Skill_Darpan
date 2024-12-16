@@ -2,11 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
+.all{
+    display: flex;
+    align-items: center;
+}
 
 .container{
     width: 800px;
     height: 650px;
     border: 10px solid gray;
+    margin-right:  3cm;
 }
 .container2{
     background-color: white;
@@ -72,3 +77,55 @@ img{
     text-align: center;
     color: #FFFFFF;
 }
+
+/* Practice layout - 1 */
+.parent-container {
+    height: 410px;
+    width: 430px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-row1{
+    display: flex;
+    gap: 10px;
+}
+.large-box{
+    width: 150px;
+    height: 200px;
+    background-color: #FF6348;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.box2{
+    width: 230px;
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.smallbox{
+    background-color: #FF6348;
+    height: 47%;
+    width: 47%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.box-row2{
+    display: flex;
+    gap: 10px;
+}
+
+
