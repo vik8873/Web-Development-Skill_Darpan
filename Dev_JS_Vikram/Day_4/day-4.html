@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Operators and Conditional Statements</title>
+  <link rel="stylesheet" href="day-4.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">CodeBlog</a>
+      <ul class="nav-links">
+        <li><a href="#operators">Operators</a></li>
+        <li><a href="#conditional-statements">Conditional Statements</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="operators" class="section">
+      <h1>Types of Operators</h1>
+      <article>
+        <h2>1. Arithmetic Operators</h2>
+        <p>Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, and division.</p>
+        <pre><code>// Example of Arithmetic Operators in JavaScript
+let a = 10, b = 5;
+console.log(a + b); // Addition
+console.log(a - b); // Subtraction
+console.log(a * b); // Multiplication
+console.log(a / b); // Division
+        </code></pre>
+      </article>
+      <article>
+        <h2>2. Comparison Operators</h2>
+        <p>Comparison operators are used to compare two values and return a boolean (true/false).</p>
+        <pre><code>// Example of Comparison Operators in JavaScript
+let a = 10, b = 5;
+console.log(a > b);  // Greater than
+console.log(a < b);  // Less than
+console.log(a == b); // Equal to
+console.log(a != b); // Not equal
+        </code></pre>
+      </article>
+      <article>
+        <h2>3. Logical Operators</h2>
+        <p>Logical operators are used to combine multiple conditions.</p>
+        <pre><code>// Example of Logical Operators in JavaScript
+let a = true, b = false;
+console.log(a && b); // Logical AND
+console.log(a || b); // Logical OR
+console.log(!a);     // Logical NOT
+        </code></pre>
+      </article>
+      <article>
+        <h2>4. Assignment Operators</h2>
+        <p>Assignment operators are used to assign values to variables.</p>
+        <pre><code>// Example of Assignment Operators in JavaScript
+let a = 10;
+a += 5; // a = a + 5
+console.log(a);
+
+a -= 3; // a = a - 3
+console.log(a);
+
+a *= 2; // a = a * 2
+console.log(a);
+
+a /= 2; // a = a / 2
+console.log(a);
+
+a %= 3; // a = a % 3
+console.log(a);
+
+a **= 2; // a = a ** 2
+console.log(a);
+        </code></pre>
+      </article>
+    </section>
+
+    <section id="conditional-statements" class="section">
+      <h1>Types of Conditional Statements</h1>
+      <article>
+        <h2>1. If Statement</h2>
+        <p>The "if" statement is used to execute a block of code only if a specified condition is true.</p>
+        <pre><code>// Example of If Statement in JavaScript
+let a = 10;
+if (a > 5) {
+  console.log("a is greater than 5");
+}
+        </code></pre>
+      </article>
+      <article>
+        <h2>2. If-Else Statement</h2>
+        <p>The "if-else" statement executes one block of code if a condition is true and another block if it is false.</p>
+        <pre><code>// Example of If-Else Statement in JavaScript
+let a = 10;
+if (a > 15) {
+  console.log("a is greater than 15");
+} else {
+  console.log("a is less than or equal to 15");
+}
+        </code></pre>
+      </article>
+      <article>
+        <h2>3. Else-If Ladder</h2>
+        <p>The "else if" ladder is used to check multiple conditions.</p>
+        <pre><code>// Example of Else-If Ladder in JavaScript
+let a = 10;
+if (a > 15) {
+  console.log("a is greater than 15");
+} else if (a == 10) {
+  console.log("a is equal to 10");
+} else {
+  console.log("a is less than 10");
+}
+        </code></pre>
+      </article>
+      <!-- <article>
+        <h2>4. Switch Statement</h2>
+        <p>The "switch" statement is used to execute one block of code among many based on a specific value.</p>
+        <pre><code>// Example of Switch Statement in JavaScript
+let day = 3;
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  default:
+    console.log("Invalid day");
+}
+        </code></pre>
+      </article> -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CodeBlog By Vikram. All rights reserved.</p>
+  </footer>
+</body>
+</html>
