@@ -4,17 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to CSS</title>
-    <style> a {font-size: 1.5rem;
-     text-decoration: none;
-               }
-            a:hover{
-                color: rgb(247, 6, 6);
-                background-color: aquamarine;
-                border-radius: 8px;
-                padding: 5px;
-                margin-bottom: 20px;
-                }   
-    .div{ text-align: center;}
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #f1f5f9;
+}
+
+.div {
+    text-align: center;
+    
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    background-color: #334155;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0 0 15px 0;
+    color: #38bdf8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #f1f5f9;
+    background-color: #38bdf8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+a:hover {
+    background-color: #0f172a;
+    color: #38bdf8;
+}
 
     </style>
 </head>
@@ -23,10 +62,10 @@
         <h1>Day-1: Introduction to CSS</h1>
         <a href="./Day-1/Intro.html" target="_blank">Day-1: Introduction to CSS</a>
     </div>
-    <div class="div">
+    <div class="div" style="display: flex; flex-direction: column; ">
         <h1>Day-2: Selectors In CSS</h1>
-        <a href="./Day-2/Use_Of_Selectors/index.html" target="_blank">Uses Of Selectors</a><br>
-        <a href="./Day-2/Blog_on_Selectors/index.html" target="_blank">Blog on Selectors</a>
+        <a style="width: 40%;" href="./Day-2/Use_Of_Selectors/index.html" target="_blank">Uses Of Selectors</a><br>
+        <a style="width: 40%;" href="./Day-2/Blog_on_Selectors/index.html" target="_blank">Blog on Selectors</a>
     </div>
     <div class="div">
         <h1>Day-3:Background color & images</h1>

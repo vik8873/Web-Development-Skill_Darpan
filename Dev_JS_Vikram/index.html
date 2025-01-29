@@ -4,19 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java script modules</title>
-    <style> a {font-size: 1.5rem;
-        text-decoration: none;
-                  }
-               a:hover{
-                   color: rgb(247, 6, 6);
-                   background-color: aquamarine;
-                   border-radius: 8px;
-                   padding: 5px;
-                   margin-bottom: 20px;
-                   }   
-       .div{ text-align: center;}
-   
-       </style>
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: #f1f5f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .div {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #334155;
+            border-radius: 10px;
+            width: 80%;
+            background-color: #334155;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin: 0 0 20px 0;
+        }
+
+        a {
+            font-size: 1.3rem;
+            text-decoration: none;
+            color: #38bdf8;
+            padding: 10px 15px;
+            border: 2px solid #38bdf8;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: #0f172a;
+            background-color: #38bdf8;
+            border-color: #0f172a;
+        }
+
+        @media (max-width: 600px) {
+            .div {
+                width: 95%;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            a {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="div">
@@ -35,6 +75,10 @@
     <div class="div">
         <h1>Day-7:Password Validator</h1>
         <a href="./Day_7_Workshop/day7.html" target="_blank">Password Validator</a>
+    </div>
+    <div class="div">
+        <h1>Day-8: JS Strings Blog</h1>
+        <a href="./Day_8/day8.html" target="_blank">JS Strings Blog</a>
     </div>
     
 </body>

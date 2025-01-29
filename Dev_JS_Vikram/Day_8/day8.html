@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Strings Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>JS Strings Blog</h1>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#methods">Methods</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>What are JavaScript Strings?</h2>
+        <p>A string in JavaScript is a sequence of characters enclosed in **single (`'`), double (`"`), or backticks (`` ` ``). Strings are used to store and manipulate text.</p>
+        <p>Strings are one of the primitive data types in JavaScript. They can contain letters, numbers, symbols, and spaces and are immutable, meaning they cannot be changed directly after creation.</p>
+    </section>
+
+    <section id="usage">
+        <h2>Usage of Strings</h2>
+        <pre>
+            <code>
+    let str1 = 'Hello World';  // Single quotes
+    let str2 = "Hello World";  // Double quotes
+    let name = "John";
+    let str3 = `Hello, ${name}!`;  // Backticks for template literals
+            </code>
+        </pre>
+    </section>
+
+    <section id="methods">
+        <h2>10 Most Used String Methods</h2>
+
+        <div class="method">
+            <h3>1. length</h3>
+            <p>Returns the number of characters in a string.</p>
+            <pre><code>console.log("Hello".length); // 5</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>2. toUpperCase()</h3>
+            <p>Converts the string to uppercase.</p>
+            <pre><code>console.log("hello".toUpperCase()); // "HELLO"</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>3. toLowerCase()</h3>
+            <p>Converts the string to lowercase.</p>
+            <pre><code>console.log("HELLO".toLowerCase()); // "hello"</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>4. trim()</h3>
+            <p>Removes spaces from both ends.</p>
+            <pre><code>console.log("  hello  ".trim()); // "hello"</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>5. slice(start, end)</h3>
+            <p>Extracts part of a string.</p>
+            <pre><code>console.log("JavaScript".slice(0, 4)); // "Java"</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>6. substring(start, end)</h3>
+            <p>Similar to slice, but doesn’t accept negative indices.</p>
+            <pre><code>console.log("JavaScript".substring(4, 10)); // "Script"</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>7. replace(search, replace)</h3>
+            <p>Replaces part of a string.</p>
+            <pre><code>console.log("Hello World".replace("World", "JS")); // "Hello JS"</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>8. split(separator)</h3>
+            <p>Converts a string into an array.</p>
+            <pre><code>console.log("Hello World".split(" ")); // ["Hello", "World"]</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>9. concat()</h3>
+            <p>Joins two or more strings.</p>
+            <pre><code>console.log("Hello".concat(" ", "World")); // "Hello World"</code></pre>
+        </div>
+
+        <div class="method">
+            <h3>10. includes(substring)</h3>
+            <p>Checks if a string contains a substring.</p>
+            <pre><code>console.log("JavaScript".includes("Script")); // true</code></pre>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 JavaScript Blog By Vikram. All rights reserved.</p>
+    </footer>
+</body>
+</html>
