@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Arrays Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Arrays Explained</h1>
+        <p>Learn everything about JavaScript Arrays with examples and explanations.</p>
+    </header>
+
+    <section class="container">
+        
+        <!-- JavaScript Arrays -->
+        <div class="card">
+            <h2>What is a JavaScript Array?</h2>
+            <p>JavaScript arrays are used to store multiple values in a single variable.</p>
+            <ul>
+                <li>Can hold different data types.</li>
+                <li>Can dynamically grow or shrink.</li>
+                <li>Indexed starting from 0.</li>
+            </ul>
+            <pre><code>let fruits = ["Apple", "Banana", "Mango"];</code></pre>
+        </div>
+
+        <!-- Why Use Arrays? -->
+        <div class="card">
+            <h2>Why Use Arrays?</h2>
+            <ul>
+                <li>Efficient Data Storage</li>
+                <li>Easy Access with Indexing</li>
+                <li>Powerful Built-in Methods</li>
+                <li>Useful for Loops and Iteration</li>
+            </ul>
+        </div>
+
+        <!-- Creating an Array -->
+        <div class="card">
+            <h2>Creating an Array</h2>
+            <p>There are multiple ways to create an array:</p>
+            <pre><code>// Using Array Literal
+let numbers = [10, 20, 30, 40];
+
+// Using new Array()
+let moreNumbers = new Array(50, 60, 70);
+</code></pre>
+        </div>
+
+        <!-- JavaScript Array Methods -->
+        <div class="card">
+            <h2>JavaScript Array Methods</h2>
+        </div>
+
+        <!-- Array Methods with Examples -->
+        <div class="card">
+            <h2>length</h2>
+            <p>Returns the number of elements in an array.</p>
+            <pre><code>let arr = [10, 20, 30];
+console.log(arr.length); // Output: 3</code></pre>
+            <pre><code>let words = ["Hello", "World", "JavaScript"];
+console.log(words.length); // Output: 3</code></pre>
+        </div>
+
+        <div class="card">
+            <h2>toString()</h2>
+            <p>Converts an array into a comma-separated string.</p>
+            <pre><code>let colors = ["Red", "Green", "Blue"];
+console.log(colors.toString()); // Output: Red,Green,Blue</code></pre>
+            <pre><code>let numbers = [1, 2, 3, 4];
+console.log(numbers.toString()); // Output: 1,2,3,4</code></pre>
+        </div>
+
+        <div class="card">
+            <h2>pop()</h2>
+            <p>Removes the last element from an array and returns it.</p>
+            <pre><code>let items = ["Pen", "Pencil", "Eraser"];
+console.log(items.pop()); // Output: Eraser</code></pre>
+            <pre><code>let nums = [5, 10, 15, 20];
+console.log(nums.pop()); // Output: 20</code></pre>
+        </div>
+
+        <div class="card">
+            <h2>push()</h2>
+            <p>Adds an element to the end of an array.</p>
+            <pre><code>let fruits = ["Apple", "Banana"];
+fruits.push("Mango");
+console.log(fruits); // Output: ["Apple", "Banana", "Mango"]</code></pre>
+            <pre><code>let animals = ["Cat", "Dog"];
+animals.push("Rabbit");
+console.log(animals); // Output: ["Cat", "Dog", "Rabbit"]</code></pre>
+        </div>
+
+        <div class="card">
+            <h2>slice()</h2>
+            <p>Extracts part of an array without modifying the original array.</p>
+            <pre><code>let arr = ["a", "b", "c", "d"];
+console.log(arr.slice(1, 3)); // Output: ["b", "c"]</code></pre>
+            <pre><code>let numbers = [1, 2, 3, 4, 5];
+console.log(numbers.slice(2)); // Output: [3, 4, 5]</code></pre>
+        </div>
+
+        <div class="card">
+            <h2>concat()</h2>
+            <p>Joins two or more arrays.</p>
+            <pre><code>let arr1 = [1, 2];
+let arr2 = [3, 4];
+console.log(arr1.concat(arr2)); // Output: [1, 2, 3, 4]</code></pre>
+            <pre><code>let letters1 = ["A", "B"];
+let letters2 = ["C", "D"];
+console.log(letters1.concat(letters2)); // Output: ["A", "B", "C", "D"]</code></pre>
+        </div>
+
+        <div class="card">
+            <h2>splice()</h2>
+            <p>Removes or replaces elements in an array.</p>
+            <pre><code>let arr = ["a", "b", "c", "d"];
+arr.splice(1, 2, "x", "y");
+console.log(arr); // Output: ["a", "x", "y", "d"]</code></pre>
+            <pre><code>let numbers = [10, 20, 30, 40];
+numbers.splice(2, 1);
+console.log(numbers); // Output: [10, 20, 40]</code></pre>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2025 JavaScript Blog By Vikram All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

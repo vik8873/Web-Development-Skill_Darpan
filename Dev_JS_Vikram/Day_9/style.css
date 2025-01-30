@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0f0f2f, #103638);
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 24px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+   
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Cards */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 15px;
+    font-size: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Code Block */
+pre {
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #f8f8f2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+}
