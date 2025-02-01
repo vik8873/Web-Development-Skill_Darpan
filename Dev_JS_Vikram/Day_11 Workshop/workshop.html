@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating System</title>
+    <link rel="stylesheet" href="workshop.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Rating System</h1>
+        <label for="movieName">Enter Movie Name:</label>
+        <input type="text" id="movieName" placeholder="Type movie name..." required>
+
+        <label for="rating">Enter Rating (1-10):</label>
+        <input type="number" id="rating" min="1" max="10" placeholder="Enter rating">
+        
+        <button onclick=" addrating()">Submit Rating</button>
+        <button onclick="calculateavg() ">Calculate Final Rating</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="workshop.js"></script>
+</body>
+</html>
