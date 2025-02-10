@@ -7,13 +7,13 @@ while (userInput != "End") {
     userInput = (prompt("Enter Your Number"))
     mainInput = parseInt(userInput)
 }
- function Sum(a1) {
+function Sum(a1) {
     let result = 0
     for (let index = 0; index < a1.length; index++) {
-        result = result+a1[index];
-        
+        result = result + a1[index];
+
     }
     return result
-    
- }
- alert(`The Sum of number is ${Sum(storeInput)}`)
+
+}
+alert(`The Sum of number is ${Sum(storeInput)}`)
